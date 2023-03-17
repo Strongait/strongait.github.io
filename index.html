@@ -1,199 +1,176 @@
-Fitlife - Work Hard To Get Better Life
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitlife - Work Hard To Get Better Life</title>
 
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-#---------- HEADER ----------#
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-<ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
-Fitlife
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+    rel="stylesheet">
 
-aria-label = close menu
-<ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-one.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-two.png">
+  <link rel="preload" as="image" href="./assets/images/heart-rate.svg">
+  <link rel="preload" as="image" href="./assets/images/calories.svg">
 
-Home
-About Us
-Classes
-Blog
-Contact Us
+</head>
 
-Join Now
+<body id="top">
 
-aria-label = open menu
+  <!-- 
+    - #HEADER
+  -->
 
+  <header class="header" data-header>
+    <div class="container">
 
 
-#---------- HERO ----------#
+      <nav class="navbar" data-navbar>
 
-The Best
-Fitness Club
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+        </button>
 
-Work Hard To Get Better Life
+     
 
-Duis mollis felis quis libero dictum vehicula. Duis dictum lorem mi, a faucibus nisi eleifend eu.
+      </nav>
 
-Get Started
+      <a href="mailto:bb04490b@gmail.com" class="btn btn-secondary">Contact Us</a>
 
-alt = hero banner
-alt = heart rate
-alt = calories
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
 
+    </div>
+  </header>
 
 
-#---------- ABOUT ----------#
 
-alt = about banner
 
-alt = fitness
 
-About Us
+  <main>
+    <article>
 
-Welcome To Our Fitness Gym
+      <!-- 
+        - #HERO
+      -->
 
-Nam ut hendrerit leo. Aenean vel ipsum nunc. Curabitur in tellus vitae nisi aliquet dapibus non et erat. Pellentesque porta sapien non accumsan dignissim curabitur sagittis nulla sit amet dolor feugiat.
+      <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section
+        style="background-image: url('./assets/images/hero-bg.png')">
+        <div class="container">
 
-Integer placerat vitae metus posuere tincidunt. Nullam suscipit ante ac aliquet viverra vestibulum ante ipsum primis.
+          <div class="hero-content">
 
-alt = Trainer
+            <p class="hero-subtitle">
+              <strong class="strong">The Best</strong>Fitness Club
+            </p>
 
-Denis Robinson
-Our Coach
+            <h1 class="h1 hero-title">Work Hard To Get Better Life</h1>
 
-Explore More
+            <p class="section-text">
+              The app contains training programs for men and training programs for women prepared by practicing fitness trainers.
 
+            </p>
 
+            <a href="https://play.google.com/store/apps/details?id=com.trainer_super" class="btn btn-primary">Instal</a>
 
-#---------- VIDEO ----------#
+          </div>
 
-Explore Fitness Life
+          <div class="hero-banner">
 
-aria-label = play video
-<ion-icon name="play-sharp" aria-hidden="true"></ion-icon>
+            <img src="./assets/images/hero-banner.png" width="660" height="753" alt="hero banner" class="w-100">
 
-Watch More
+            <img src="./assets/images/hero-circle-one.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-1">
+            <img src="./assets/images/hero-circle-two.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-2">
 
+            <img src="./assets/images/heart-rate.svg" width="255" height="270" alt="heart rate"
+              class="abs-img abs-img-1">
+            <img src="./assets/images/calories.svg" width="348" height="224" alt="calories" class="abs-img abs-img-2">
 
+          </div>
 
-#---------- CLASS ----------#
+        </div>
+      </section>
 
-Our Classes
 
-Fitness Classes For Every Goal
 
-alt = Weight Lifting
 
-Weight Lifting
 
-Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.
 
-Class Full
 
-85%
 
-alt = Cardio & Strenght
 
-Cardio & Strenght
 
-70%
 
-alt = Power Yoga
 
-Power Yoga
 
-90%
+   
 
-alt = The Fitness Pack
 
-The Fitness Pack
 
-60%
 
 
 
-#---------- BLOG ----------#
+    </article>
+  </main>
 
-Our News
 
-Latest Blog Feed
 
-alt = Going to the gym for the first time
 
-7 July 2022
 
-Going to the gym for the first time
 
-Praesent id ipsum pellentesque lectus dapibus condimentum curabitur eget risus quam. In hac habitasse platea dictumst.
 
-Read More
 
-alt = Parturient accumsan cacus pulvinar magna
 
-Parturient accumsan cacus pulvinar magna
+  <!-- 
+    - #BACK TO TOP
+  -->
 
-alt = Risus purus namien parturient accumsan cacus
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+  </a>
 
-Risus purus namien parturient accumsan cacus
 
 
 
-#---------- FOOTER ----------#
 
-<ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
-Fitlife
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
 
-Etiam suscipit fringilla ullamcorper sed malesuada urna nec odio.
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-alt = Clock
+</body>
 
-Monday - Friday
-7:00Am - 10:00Pm
-
-Saturday - Sunday
-7:00Am - 2:00Pm
-
-Our Links
-
-Home
-About Us
-Classes
-Blog
-Contact Us
-
-Contact Us
-
-<ion-icon name="location" aria-hidden="true"></ion-icon>
-
-1247/Plot No. 39, 15th Phase, Colony, Kukatpally, Hyderabad
-
-<ion-icon name="call" aria-hidden="true"></ion-icon>
-
-1800-121-3637
-+91 555 234-8765
-
-<ion-icon name="mail" aria-hidden="true"></ion-icon>
-
-info@fitlife.com
-services@fitlife.com
-
-Our Newsletter
-
-aria-label = email
-placeholder = Email Address
-
-aria-label = Submit
-<ion-icon name="chevron-forward-sharp" aria-hidden="true"></ion-icon>
-
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-instagram"></ion-icon>
-<ion-icon name="logo-twitter"></ion-icon>
-
-&copy; 2022 Fitlife. All Rights Reserved By codewithsadee.
-
-Privacy Policy
-Terms & Condition
-
-
-
-#---------- BACK TO TOP ----------#
-
-aria-label = back to top
-<ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+</html>
