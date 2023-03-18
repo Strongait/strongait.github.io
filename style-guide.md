@@ -24,21 +24,21 @@ Ionicon
 ## Colors
 
 ``` css
-  --rich-black-fogra-29_50: hsl(210, 26%, 11%, 0.5);
-  --rich-black-fogra-29-1: hsl(210, 26%, 11%);
-  --rich-black-fogra-29-2: hsl(210, 50%, 4%);
-  --silver-metallic: hsl(212, 9%, 67%);
-  --coquelicot_20: hsla(12, 98%, 52%, 0.2);
-  --coquelicot_10: hsla(12, 98%, 52%, 0.1);
-  --sonic-silver: hsl(0, 0%, 47%);
-  --cadet-gray: hsl(214, 15%, 62%);
-  --light-gray: hsl(0, 0%, 80%);
-  --coquelicot: hsl(218, 94%, 44%);
-  --gainsboro: hsl(0, 0%, 88%);
-  --white_20: hsl(0, 0%, 100%, 0.2);
-  --white_10: hsl(0, 0%, 100%, 0.1);
-  --black_10: hsl(0, 0%, 0%, 0.1);
-  --white: hsl(0, 0%, 100%);
+--rich-black-fogra-29_50: hsl(210, 26%, 11%, 0.5);
+--rich-black-fogra-29-1: hsl(210, 26%, 11%);
+--rich-black-fogra-29-2: hsl(210, 50%, 4%);
+--silver-metallic: hsl(212, 9%, 67%);
+--coquelicot_20: hsla(12, 98%, 52%, 0.2);
+--coquelicot_10: hsla(12, 98%, 52%, 0.1);
+--sonic-silver: hsl(0, 0%, 47%);
+--cadet-gray: hsl(214, 15%, 62%);
+--light-gray: hsl(0, 0%, 80%);
+--coquelicot: hsl(12, 98%, 52%);
+--gainsboro: hsl(0, 0%, 88%);
+--white_20: hsl(0, 0%, 100%, 0.2);
+--white_10: hsl(0, 0%, 100%, 0.1);
+--black_10: hsl(0, 0%, 0%, 0.1);
+--white: hsl(0, 0%, 100%);
 ```
 
 ## Typography
